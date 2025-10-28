@@ -27,5 +27,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+.terraform.lock*
+
 # Configuration files
 *.conf
