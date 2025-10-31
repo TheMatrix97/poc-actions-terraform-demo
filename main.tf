@@ -32,8 +32,8 @@ resource "aws_security_group" "web" {
 
   ingress {
     description = "Web security group."
-    from_port   = 8443
-    to_port     = 8443
+    from_port   = 8090
+    to_port     = 8090
     protocol    = "tcp"
     cidr_blocks = [aws_vpc.vpc.cidr_block]
   }
